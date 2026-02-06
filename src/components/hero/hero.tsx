@@ -89,15 +89,13 @@ export const HeroSection = () => {
             variants={childFadeUp}
             className="flex flex-wrap gap-3 text-xs sm:text-sm"
           >
-            <button className="group inline-flex items-center gap-2 rounded-full bg-cyan-400/90 px-4 py-2 font-semibold text-slate-950 shadow-[0_0_45px_rgba(34,211,238,0.9)] transition hover:bg-cyan-300">
-              View projects
-              <span className="translate-y-px text-base transition group-hover:translate-x-0.5">
-                ↗
-              </span>
-            </button>
-            <button className="inline-flex items-center gap-2 rounded-full border border-slate-600/70 bg-slate-900/60 px-4 py-2 font-medium text-slate-100/90 shadow-[0_0_30px_rgba(15,23,42,0.9)] backdrop-blur-xl transition hover:border-cyan-300/80 hover:text-cyan-100/95">
+            <a
+              href="/cv.pdf"
+              download="Md_Sakib_Hasan_CV.pdf"
+              className="inline-flex items-center gap-2 rounded-full border border-slate-600/70 bg-slate-900/60 px-4 py-2 font-medium text-slate-100/90 shadow-[0_0_30px_rgba(15,23,42,0.9)] backdrop-blur-xl transition hover:border-cyan-300/80 hover:text-cyan-100/95"
+            >
               Download CV
-            </button>
+            </a>
           </motion.div>
 
           <motion.div
