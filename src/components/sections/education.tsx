@@ -6,22 +6,22 @@ import Image from "next/image";
 const educationItems = [
   {
     label: "School",
-    title: "Secondary Education",
-    meta: "Foundations in mathematics, physics & computing.",
+    title: "MAHM School & College",
+    meta: "Science",
     accent: "from-cyan-400/70 to-sky-400/60",
     logo: "/logos/school.png",
   },
   {
     label: "College",
-    title: "Higher Secondary",
-    meta: "Deepened STEM focus with competitive programming.",
+    title: "Noubahini College, Dhaka",
+    meta: "Science",
     accent: "from-purple-400/70 to-fuchsia-400/60",
     logo: "/logos/college.png",
   },
   {
     label: "University",
     title: "East West University",
-    meta: "Formal training in Computer Science and AI.",
+    meta: "Computer Science and Engineering",
     accent: "from-emerald-400/70 to-cyan-400/60",
     logo: "/logos/university.png",
   },
