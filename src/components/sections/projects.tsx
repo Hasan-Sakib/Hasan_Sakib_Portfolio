@@ -17,14 +17,14 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Neural Insight",
-    subtitle: "3D Model Explainability",
+    title: "Vision-Based Self-Supervised Learning for Malware Detection",
+    subtitle: "Self-Supervised Learning",
     description:
-      "An interactive 3D environment for visualising attention maps, embeddings, and decision boundaries of deep models in real time.",
+      "A novel approach to malware detection using self-supervised learning on malware images.",
     image: "/window.svg",
     liveUrl: "#",
     sourceUrl: "#",
-    tags: ["React Three Fiber", "Next.js", "Framer Motion", "Python backend"],
+    tags: ["PyTorch", "Computer Vision", "Self-Supervised Learning", "Malware Detection"],
   },
   {
     title: "RAG Studio",
